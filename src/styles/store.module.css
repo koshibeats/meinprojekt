@@ -1,0 +1,30 @@
+.storeHeader{
+    display:flex;
+    font-size:40px;
+    justify-content: center;
+}
+.soundkitContainer{
+   display:flex;
+    gap:100px;
+    justify-content: center;
+    height:100vw;
+}
+
+.nameAndPrice {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loopkitName {
+    font-size:20px;
+}
+.loopkitPrice{
+    font-size:15px;
+    
+}
+.soundkitEntry {
+    display:block;
+}
+.eachSoundkit{
+    display:flex;
+}

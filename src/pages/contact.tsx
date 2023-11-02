@@ -28,6 +28,7 @@ export default function Form() {
   };
 
   return (
+    <div className = {css.formContainer}>
     <form onSubmit={handleSubmit(onSubmit)} className={css.Form}>
       <div className={css.first_Name}>
         <p className={css.fieldName}>first name</p>
@@ -80,11 +81,12 @@ export default function Form() {
           errors.email.type === "pattern" &&
           errorMessage(wrongPattern)}
       </div>
-      <div>
-        <button type="submit" onClick={async () => {}}>
+      <div className = {css.buttonCon}>
+        <button className = {css.submitButton} type="submit" onClick={async () => {}}>
           Submit
         </button>
       </div>
     </form>
+    </div>
   );
 }

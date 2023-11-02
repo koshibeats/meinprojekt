@@ -1,16 +1,15 @@
-"use client";
-import { useState } from "react";
-import Navbar from "../../components/Navbar"
 
 
-const Home = () => {
- 
+
+export default function Home() {
+ const imageUrl = "api/fetchImage";
   return (
+    <>
+    <div>
+    <img src = {imageUrl}></img>
     
-    <div></div>
-      
+    </div>
+    </>
     
   );
 };
-
-export default Home;
