@@ -1,0 +1,67 @@
+.wrapper {
+    height: 800px;
+  }
+  .backgroundImage {
+    
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    justify-content: center;
+    height: 600px;
+    width:100%;
+   
+  }
+  .aboutUsContainer{
+    display:block;
+    height: 300px;
+    max-width:600px;
+    background-color:white;
+  }
+  
+  .aboutUsHeaderCon{
+    display:flex;
+    justify-content: center;
+  }
+  
+  .aboutUsPlaceholderCon{
+    display:flex;
+    justify-content: center;
+    margin:0;
+    padding:0;
+  }
+  
+  .aboutUsTextCon{
+    display:flex;
+    justify-content: center;
+    padding-right:100px;
+    padding-left:100px;
+  }
+  
+  .aboutUsHeaderText{
+    font-size:2rem;
+  }
+  .aboutUsPlaceholderText{
+    font-size:2rem;
+    margin:0;
+    padding:0;
+  }
+  
+  .aboutUsText{
+    font-size:1rem;
+    text-align: center;
+  }
+  
+  
+  @media (max-width: 800px) {
+    .aboutUsContainer{
+      flex-shrink: 1;
+    }
+  
+  }
+  @media(max-width: 475px) {
+    .aboutUsText{
+      font-size:0.9rem;
+    }
+  }

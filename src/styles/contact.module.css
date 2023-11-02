@@ -1,0 +1,25 @@
+.wrapper {
+    height: 800px;
+  }
+  .backgroundImage {
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    justify-content: center;
+    height: 1000px;
+    width:100%;
+   
+  }
+  .contactFormContainer{
+    display:flex;
+    flex-direction: column;
+    height: 600px;
+    width:600px;
+    background-color:white;
+    
+  }
+  
+
+  
