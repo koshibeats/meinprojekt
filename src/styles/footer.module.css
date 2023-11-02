@@ -1,0 +1,14 @@
+.footerContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footerTextContainer{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+.copyrightText {
+    display:flex;
+    justify-content: center;
+}

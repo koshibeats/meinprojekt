@@ -1,14 +1,19 @@
 .navbarContainer{
     display:flex;
-    height:200px;
-    background-color: lightskyblue;
+    height:100px;
+    background-color: rgb(82, 138, 179);
     width:100%;
     
 }
 
 .menuElement{
     display:inline;
+    color:red;
     
+}
+.menuElement a{
+    
+    color:rgb(255, 255, 255);
     
 }
 .listContainer {
