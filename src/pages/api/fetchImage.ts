@@ -14,7 +14,7 @@ export default async function handler(
       }
   
       
-      const imageBuffer = await response.arrayBuffer(); //blob
+      const imageBuffer = await response.arrayBuffer(); //blo
   
       
       res.setHeader('Content-Type', 'image/jpeg');
