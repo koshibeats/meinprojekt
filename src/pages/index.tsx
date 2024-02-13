@@ -1,15 +1,15 @@
+import React from 'react'
+import css from "../styles/store.module.css"
+import Image from "next/image"
+import Hero from '../../components/Hero'
 
-
-
-export default function Home() {
- const imageUrl = "api/fetchImage";
+function Index() {
   return (
-    <>
-    <div>
-    <img src = {imageUrl}></img>
-    
-    </div>
-    </>
-    
-  );
-};
+    <><Hero></Hero>
+      
+          </>
+          )}
+          
+          
+
+export default Index

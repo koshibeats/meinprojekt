@@ -8,6 +8,8 @@
     gap:100px;
     justify-content: center;
     height:100vw;
+    width:100%;
+    flex-direction: column;
 }
 
 .nameAndPrice {

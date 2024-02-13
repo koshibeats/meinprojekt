@@ -1,0 +1,15 @@
+.imageHeader{
+   background-image: url('/main.jpg');
+    width: '100vw';
+    height: '100vh';
+    background-position: 'center';
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
+}
+
+.featured{
+    display:flex;
+    gap:100px;
+    justify-content: center;
+    height:100vw;
+}
