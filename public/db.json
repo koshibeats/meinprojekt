@@ -1,0 +1,69 @@
+{
+  "Products": {
+    "ID": [
+      {
+        "name": "Produkt 1",
+        "description": "Beschreibung des Produkts 1",
+        "price": 15,
+        "image": "https://picsum.photos/500/500"
+      },
+      {
+        "name": "Produkt 2",
+        "description": "Beschreibung des Produkts 2",
+        "price": 13,
+        "image": "https://picsum.photos/500/500"
+      },
+      {
+        "name": "Produkt 3",
+        "description": "Beschreibung des Produkts 3",
+        "price": 1115,
+        "image": "https://picsum.photos/500/500"
+      },{
+        "name": "Produkt 4",
+        "description": "Beschreibung des Produkts 4",
+        "price": 535,
+        "image": "https://picsum.photos/500/500"
+      },
+      {
+        "name": "Produkt 5",
+        "description": "Beschreibung des Produkts 5",
+        "price": 631,
+        "image": "https://picsum.photos/500/500"
+      },{
+        "name": "Produkt 6",
+        "description": "Beschreibung des Produkts 6",
+        "price": 152,
+        "image": "https://picsum.photos/500/500"
+      },
+      {
+        "name": "Produkt 7",
+        "description": "Beschreibung des Produkts 7",
+        "price": 167,
+        "image": "https://picsum.photos/500/500"
+      },{
+        "name": "Produkt 8",
+        "description": "Beschreibung des Produkts 8",
+        "price": 111,
+        "image": "https://picsum.photos/500/500"
+      },
+      {
+        "name": "Produkt 9",
+        "description": "Beschreibung des Produkts 9",
+        "price": 135,
+        "image": "https://picsum.photos/500/500"
+      },{
+        "name": "Produkt 10",
+        "description": "Beschreibung des Produkts 10",
+        "price": 1555,
+        "image": "https://picsum.photos/500/500"
+      },
+      {
+        "name": "Produkt 11",
+        "description": "Beschreibung des Produkts 11",
+        "price": 14,
+        "image": "https://picsum.photos/500/500"
+      }
+      
+    ]
+  }
+}
